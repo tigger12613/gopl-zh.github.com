@@ -212,6 +212,9 @@ var zh2twMapPatch = map[rune]rune{
 	'晖': '晖',
 	'系': '系',
 	'团': '團',
+	'修': '修',
+	'只': '只',
+	'并': '並',
 }
 
 var _TSCharactersMap = map[rune]rune{

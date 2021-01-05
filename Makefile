@@ -18,6 +18,7 @@ default:
 	go run fix-data-revision.go
 	go run builder.go
 
+#go run zh2tw.go . "\.md$" zh2tw
 zh2tw:
 	go run zh2tw.go . .md$$
 

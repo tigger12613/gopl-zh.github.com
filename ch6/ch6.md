@@ -11,7 +11,7 @@ const day = 24 * time.Hour
 fmt.Println(day.Seconds()) // "86400"
 ```
 
-併且在2.5節中，我們定義了一個自己的方法，Celsius類型的String方法:
+並且在2.5節中，我們定義了一個自己的方法，Celsius類型的String方法:
 
 ```Go
 func (c Celsius) String() string { return fmt.Sprintf("%g°C", c) }
